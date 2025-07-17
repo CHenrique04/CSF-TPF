@@ -6,8 +6,8 @@
 // ======= CONFIGURAÇÕES WiFi e Telegram =======
 const char* SSID = "wifi-zone-1";
 const char* SENHA = "";
-const char* BOT_TOKEN = "8036704151:AAE0sGGhhzct1oJ8izakipu35CBqMUdUY4k";
-const int64_t CHAT_ID = 846532461; // sem aspas
+const char* BOT_TOKEN = "";
+const int64_t CHAT_ID = ; // sem aspas
 
 WiFiClientSecure cliente;
 UniversalTelegramBot bot(BOT_TOKEN, cliente);
